@@ -5,6 +5,9 @@
 
 
 ## MySQL reviews ##
+
+```
+
 CREATE DATABASE IF NOT EXISTS hotel DEFAULT CHARACTER SET utf8mb4;
 USE hotel;
 
@@ -32,3 +35,5 @@ select * from reviews;
 SELECT VERSION();
 
 drop DATABASE hotel;
+
+```
